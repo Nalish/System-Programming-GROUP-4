@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+// Function to find the closest perfect square to the given number
 int closestPerfectSquare(int num) {
     int lower = (int) sqrt(num);
     int upper = lower + 1;
@@ -23,9 +23,9 @@ int main() {
         printf("Invalid input. Please enter a positive integer.\n");
         return 1;
     }
-
-    int closest = closestPerfectSquare(num);
-    printf("The closest integer with a whole number square root is: %d\n", closest);
+    //modified this line to only allow positive perfect square
+ int closest = closestPerfectSquare(num);
+    printf("The closest perfect square to %d is: %d\n", num, closest);
 
     return 0;
 }
