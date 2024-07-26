@@ -1,3 +1,49 @@
+/*Subproblems
+
+    Define the Contact Data Structure
+        Define a structure to hold the contact information (first name, last name, and telephone number).
+
+    Initialize the Contact List
+        Initialize a list or array to hold up to 12 contacts.
+
+    Add a Person
+        Implement a function to add a new contact to the list.
+
+    Delete a Person
+        Implement a function to delete a contact from the list.
+
+    Update a Person’s Information
+        Implement a function to update the information for an existing contact.
+
+    Display All Contacts
+        Implement a function to display all current contact information.
+
+Order of Implementation
+
+    Define the Contact Data Structure
+        Define a structure or class for storing individual contact information.
+        Testing: Verify that instances of the structure/class can be created and accessed correctly.
+
+    Initialize the Contact List
+        Create a list or array to store the contacts.
+        Testing: Verify that the list can hold up to 12 contacts and handle empty or partially filled states.
+
+    Add a Person
+        Implement the function to add a contact.
+        Testing: Verify that new contacts are added correctly and that the list does not exceed 12 entries. Check edge cases, such as adding to a full list.
+
+    Delete a Person
+        Implement the function to delete a contact based on an identifier (e.g., index or name).
+        Testing: Verify that contacts can be deleted correctly, ensuring the list updates properly. Check edge cases, such as deleting from an empty list or a contact that does not exist.
+
+    Update a Person’s Information
+        Implement the function to update an existing contact’s information.
+        Testing: Verify that contact information is updated correctly. Check edge cases, such as updating a non-existent contact.
+
+    Display All Contacts
+        Implement the function to display all contacts.
+        Testing: Verify that all contacts are displayed correctly, including when the list is empty, partially filled, or full.*/
+
 #include <stdio.h>
 #include <string.h>
 
