@@ -136,3 +136,22 @@ int main() {
 
   return 0;
 }
+/*Testing Each Subproblem
+
+    Contact Data Structure
+        Test creating instances and accessing attributes.
+
+    Initialize Contact List
+        Test list initialization and ensure it can hold up to 12 contacts.
+
+    Add a Person
+        Test adding contacts until the list is full and handle attempts to add beyond capacity.
+
+    Delete a Person
+        Test deleting contacts by valid and invalid indices, including edge cases.
+
+    Update a Person’s Information
+        Test updating contacts’ information by valid and invalid indices, including partial updates.
+
+    Display All Contacts
+        Test displaying contacts in various states: empty, partially filled, and full.*/
